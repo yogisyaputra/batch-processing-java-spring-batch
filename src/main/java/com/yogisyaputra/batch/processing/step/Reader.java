@@ -14,9 +14,8 @@ import org.springframework.batch.item.UnexpectedInputException;
 
 public class Reader implements ItemReader<String> {
 
-    private String[] messages = { "javainuse.com",
-            "Welcome to Spring Batch Example",
-            "We use H2 Database for this example" };
+    private String[] messages = { "yogisyaputra.com",
+            "Welcome to Spring Batch Example"};
 
     private int count = 0;
 
